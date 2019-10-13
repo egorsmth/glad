@@ -6,7 +6,7 @@ set(
     HEADERS
 
     include/glad/glad.h 
-    include/KHR/khrplathorm.h
+    include/KHR/khrplatform.h
 )
 
 add_library(glad src/glad.c ${HEADERS})
